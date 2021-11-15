@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'buildingsupply/base.html' %}
+{% load static %}
+
+{% block content %}
+
+</head>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{% static "img/home.png" %}" alt="modern home" width="1000" alt="Home">
+        <div class="carousel-caption">
+            <nav2>
+
+        <ul class="nav2">
+
+            <li><a href="{% url 'products:product_list' %}">Shop Now </a></li>
+
+        <h3>Buy Smart Build Smart</h3>
+        <p></p>
+        </ul>
+
+
+</nav2>
+
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="{% static "img/home2.png" %}" alt="modern home" width="1000" alt="Home">
+        <div class="carousel-caption">
+            <nav2>
+
+        <ul class="nav2">
+
+            <li><a href="{% url 'products:product_list' %}">Shop Now </a></li>
+
+
+            <h3>Buy Smart Build Smart</h3>
+        <p></p>
+        </ul>
+
+
+</nav2>
+
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="{% static "img/home3.png" %}" alt="modern home" width="1000" alt="home">
+    <div class="carousel-caption">
+        <nav2>
+
+        <ul class="nav2">
+
+            <li><a href="{% url 'products:product_list' %}">Shop Now </a></li>
+           <h3>Modern Home</h3>
+
+        </ul>
+
+
+</nav2>
+
+      </div>
+  </div>
+
+
+
+
+<center>
+
+
+
+    </div>
+
+
+
+{% endblock %}
+
+</html>

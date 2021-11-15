@@ -1,0 +1,14 @@
+braintree~=4.6.0
+pillow
+weasyprint~=52.2
+django-filter~=2.4.0
+Django==2.2
+psycopg2==2.8.4
+gunicorn
+django-heroku
+whitenoise==4.0
+django-storages==1.7.2
+boto3==1.9.234
+
+
+celery~=5.0.5

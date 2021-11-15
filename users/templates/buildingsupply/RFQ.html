@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'buildingsupply/base.html' %}
+ {% block content %}
+     <h1>BE IN TOUCH</h1>
+     <p>Please mention information as precise as possible.</p>
+    <form  method="post" enctype="multipart/form-data">
+     {% csrf_token %}
+    {{ form.as_p }}
+    <p><input type="submit" value="Submit"></p>
+
+  </form>
+{% endblock %}
+</html>
